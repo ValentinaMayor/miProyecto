@@ -95,4 +95,32 @@ footer p { width: 100%;}
 
 @media(max-width: 768px) {
     body { font-size: 68.9%;}
+
+    main, 
+    header, 
+    nav, 
+    main,
+    footer, 
+    nav div, 
+    .cuarenta, 
+    section div,
+    header div { 
+        flex-direction: column;
+        width: 100% ; 
+        align-items:center 
+        !important; text-align: center;
+    }
+        
+    header a, 
+    section a,
+    h1,
+    h2,
+    p {
+        width:50%; 
+        margin:auto; 
+    }
+    
+    nav img { width: 8.33%;}
+    
+    .cuarenta { order: -1;}
 }
